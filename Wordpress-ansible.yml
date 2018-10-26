@@ -1,6 +1,6 @@
 ---
 - name: Download wordpress
-  hosts: r1soft
+  hosts: all
   tasks:
     - name: Download package
       when: ansible_distribution == "CentOS"
